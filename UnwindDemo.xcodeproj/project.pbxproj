@@ -12,6 +12,8 @@
 		72CD5EB31C74D50100D21223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CD5EB11C74D50100D21223 /* Main.storyboard */; };
 		72CD5EB51C74D50100D21223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CD5EB41C74D50100D21223 /* Assets.xcassets */; };
 		72CD5EB81C74D50100D21223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CD5EB61C74D50100D21223 /* LaunchScreen.storyboard */; };
+		72CD5EC01C74D6FD00D21223 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD5EBF1C74D6FD00D21223 /* ThreeViewController.swift */; };
+		72CD5EC21C74D78000D21223 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD5EC11C74D78000D21223 /* FourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		72CD5EB41C74D50100D21223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CD5EB71C74D50100D21223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CD5EB91C74D50100D21223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CD5EBF1C74D6FD00D21223 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		72CD5EC11C74D78000D21223 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				72CD5EAD1C74D50100D21223 /* AppDelegate.swift */,
 				72CD5EAF1C74D50100D21223 /* ViewController.swift */,
 				72CD5EB11C74D50100D21223 /* Main.storyboard */,
+				72CD5EC11C74D78000D21223 /* FourViewController.swift */,
+				72CD5EBF1C74D6FD00D21223 /* ThreeViewController.swift */,
 				72CD5EB41C74D50100D21223 /* Assets.xcassets */,
 				72CD5EB61C74D50100D21223 /* LaunchScreen.storyboard */,
 				72CD5EB91C74D50100D21223 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CD5EC01C74D6FD00D21223 /* ThreeViewController.swift in Sources */,
 				72CD5EB01C74D50100D21223 /* ViewController.swift in Sources */,
+				72CD5EC21C74D78000D21223 /* FourViewController.swift in Sources */,
 				72CD5EAE1C74D50100D21223 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
